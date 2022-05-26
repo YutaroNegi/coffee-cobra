@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coffee-cobra/static/css/main.a3b6c785.css",
+    "main.js": "/coffee-cobra/static/js/main.30f83af4.js",
+    "static/js/787.7734ebb4.chunk.js": "/coffee-cobra/static/js/787.7734ebb4.chunk.js",
+    "index.html": "/coffee-cobra/index.html",
+    "main.a3b6c785.css.map": "/coffee-cobra/static/css/main.a3b6c785.css.map",
+    "main.30f83af4.js.map": "/coffee-cobra/static/js/main.30f83af4.js.map",
+    "787.7734ebb4.chunk.js.map": "/coffee-cobra/static/js/787.7734ebb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3b6c785.css",
+    "static/js/main.30f83af4.js"
+  ]
+}

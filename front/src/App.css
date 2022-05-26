@@ -1,0 +1,147 @@
+.bg-light{
+  background-color: #20232a !important;
+}
+
+.bg-dark{
+  background-color: hsl(222, 14%, 10%) !important;
+}
+
+.bg-blue{
+  background-color: #61dafb !important;
+}
+
+.text-white{
+  color: #ffffff !important;
+}
+
+.mainHeader{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(222, 14%, 10%);
+  padding: 30px;
+}
+
+.calcMenu{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+
+.calcMenuMobile{
+  display: none !important;
+  background-color: #20232a !important;
+  color: #ffffff !important;
+}
+
+.textWhite{
+  color: #ffffff !important;
+}
+
+.calcItem:hover{
+  cursor: pointer;
+  color: #61dafb;
+}
+
+#mainTitle{
+  padding: 0;
+  margin: 0;
+}
+
+.calcDiv{
+  border-radius: 10px;
+  margin: 100px auto 0px auto ;
+  padding: 40px;
+  width: 400px;
+  background-color: hsl(222, 14%, 10%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accountDiv{
+  border-radius: 10px;
+  margin: 10px auto 0px auto ;
+  padding: 40px;
+  width: 400px;
+  background-color: hsl(222, 14%, 10%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.inputStyle{
+  width: 200px;
+}
+
+.resultTxt{
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.strongWord{
+  font-weight: 600;
+  color: #61dafb;
+}
+
+.calcTitle{
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.menuTitle{
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.inputBox{
+  color: #ffffff;
+  margin: 0px auto 30px auto ;
+  display: flex;
+  flex-direction: column;
+}
+
+.tutorialItem{
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.hoverPointer:hover{
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.hide{
+  display: none !important;
+}
+
+.loginBtn{
+  width: 200px;
+  margin-top: 10px !important;
+}
+
+.hidden{
+  visibility: hidden !important;
+  display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .calcMenu{
+    display: none !important;
+  }
+
+  .calcMenuMobile{
+    display: block !important;
+  }
+}
