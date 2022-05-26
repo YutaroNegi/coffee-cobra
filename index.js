@@ -9,11 +9,9 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 app.use(bodyParser.json())
-app.use(express.static(path.join(__dirname, '/front/build')))
-
-console.log(__dirname);
+app.use(express.static(path.join(__dirname, 'front/build')))
 router.get('*', (req,res)=>{
-    res.sendFile(path.join(__dirname, '/front/build/index.html'), function(error){
+    res.sendFile(path.join(__dirname, 'front/build/index.html'), function(error){
         if(error) res.send(error)
     })
 })
