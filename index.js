@@ -2,13 +2,22 @@ const express = require('express')
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser')
 const router = require('./routes/route')
+const path = require('path')
 require("dotenv").config();
 
 const app = express()
 const PORT = process.env.PORT
 
 app.use(bodyParser.json())
+app.use(express.static(path.join(__dirname, 'front/build')))
+router.get('*', (req,res)=>{
+    res.sendFile(path.join(__dirname, 'front/build/index.html'), function(error){
+        if(error) res.send(error)
+    })
+})
+
 app.use('/', router)
+
   
 app.listen(PORT, ()=>{
     console.log('Coffee Cobra running on port:', PORT);

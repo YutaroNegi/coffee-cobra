@@ -18,6 +18,10 @@ function App() {
     let status = JSON.parse(localStorage.getItem('login'))
 
     if(!status || status.login === 0){
+      status = {
+        login : 0,
+        recipes : []
+      }
       return status
     }else{
       return status
