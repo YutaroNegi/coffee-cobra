@@ -109,7 +109,7 @@ function Account(){
             <div className={`accountDiv ${status.login === 0 ? 'hide' : ''}`} >
                 <h3 className='text-white'>My recipes</h3>
 
-                <Table celled inverted selectable>
+                <Table celled inverted selectable unstackable>
                     <Table.Header>
                         <Table.Row>
                             <Table.HeaderCell>Name</Table.HeaderCell>

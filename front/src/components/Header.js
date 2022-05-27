@@ -9,6 +9,7 @@ function Header(){
 
     const options = [
         { key: 1, text: 'Home', value: 1 , as: Link, to: '/home', className: 'calcMenuMobile' },
+        { key: 5, text: 'Account', value: 5 , as: Link, to: '/login', className: 'calcMenuMobile'  },
         { key: 2, text: 'Coffee', value: 2 , as: Link, to: '/coffee', className: 'calcMenuMobile'  },
         { key: 3, text: 'Water', value: 3 , as: Link, to: '/water', className: 'calcMenuMobile'  },
         { key: 4, text: 'Ratio', value: 4 , as: Link, to: '/ratio', className: 'calcMenuMobile'  },

@@ -141,6 +141,10 @@
     display: none !important;
   }
 
+  .calcDiv{
+    margin-top: 10px !important;
+  }
+
   .calcMenuMobile{
     display: block !important;
   }
