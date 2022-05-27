@@ -4,7 +4,6 @@ const bodyParser = require('body-parser')
 const router = require('./routes/route')
 const path = require('path')
 require("dotenv").config();
-
 const app = express()
 const PORT = process.env.PORT || 5000
 
@@ -15,7 +14,6 @@ router.get('*', (req,res)=>{
         if(error) res.send(error)
     })
 })
-
 app.use('/', router)
 
   

@@ -31,6 +31,7 @@
 <ul>
     <li>Cadastro de usuário</li>
     <li>Login para acesso ao sistema</li>
+    <li>Encriptação de senhas</li>
     <li>Adição de receitas</li>
     <li>Remoção de receitas</li>
     <li>Listagem de receitas</li>
