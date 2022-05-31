@@ -1,6 +1,6 @@
 # README
 
-<p align="center">Event Calendar criado com js, html/css, node.js, mongo </p>
+<p align="center">Sistema de cálculo de café, criado com react, node, express e mongodb </p>
 
 <p align="center"> 
     <a href="#sobre">Sobre</a>
